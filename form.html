@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Event Registration Form</title>
+</head>
+<body>
+
+<form style="border: 1px solid black; width: fit-content; padding: 20px; margin: 50px auto;">
+    
+      <h2 colspan="2" align="center" cellpadding="10" cellspacing="5"  border="1" bordercolor="black">EVENT REGISTRATION FORM</h2></td>
+    
+<table align="center" cellpadding="10" cellspacing="5" bgcolor="pink">
+    <tr>
+      <td>Name:</td>
+      <td>
+        <input type="text" name="firstname" placeholder="First Name" style="width: 150px;" required>
+        <input type="text" name="lastname" placeholder="Last Name" style="width: 150px;" required>
+      </td>
+    </tr>
+
+    <tr>
+      <td>Company:</td>
+      <td><input type="text" name="company" style="width: 310px;" required></td>
+    </tr>
+
+    <tr>
+      <td>Email:</td>
+      <td><input type="email" name="email" placeholder="abc@email.com" style="width: 310px;" required></td>
+    </tr>
+
+    <tr>
+      <td>Phone:</td>
+      <td>
+        <input type="text" name="phone" placeholder="Phone Number" style="width: 310px;" required>
+      </td>
+    </tr>
+
+    <tr>
+      <td>Date of Birth:</td>
+      <td>
+        <input type="date" value="date" style="width: 310px;"  required>
+      </td>
+    </tr>
+
+    <tr>
+      <td>Subject:</td>
+      <td>
+        <select name="subject" style="width: 310px;" required>
+          <option value="">Choose Option</option>
+          <option value="support">Support</option>
+          <option value="sales">Sales</option>
+          <option value="general">General</option>
+        </select>
+      </td>
+    </tr>
+
+    <tr>
+      <td>Are you an existing customer?</td>
+      <td>
+        <input type="radio" name="customer" value="yes" > Yes
+        <input type="radio" name="customer" value="no" > No
+      </td>
+    </tr>
+
+    <tr>
+      <td colspan="2" align="center" >
+        <input type="submit"  value="REGISTER" style="border-color: palevioletred;">
+      </td>
+    </tr>
+  </table>
+</form>
+</body>
+</html>
