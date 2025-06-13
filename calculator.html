@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Calculator</title>
+</head>
+<body>
+  <h1 align="center">Calculator</h1>
+  <form name="f1">
+    <table align="center" bgcolor=" green" cellpadding="10" cellspacing="10">
+      <tr>
+        <td colspan="4" align="center">
+          <input type="text" name="one" size="30" readonly>
+        </td>
+      </tr>
+      <tr>
+        <td><input type="button" value="1" onclick="f1.one.value += '1'"></td>
+        <td><input type="button" value="2" onclick="f1.one.value += '2'"></td>
+        <td><input type="button" value="3" onclick="f1.one.value += '3'"></td>
+        <td><input type="button" value="+" onclick="f1.one.value += '+'"></td>
+      </tr>
+      <tr>
+        <td><input type="button" value="4" onclick="f1.one.value += '4'"></td>
+        <td><input type="button" value="5" onclick="f1.one.value += '5'"></td>
+        <td><input type="button" value="6" onclick="f1.one.value += '6'"></td>
+        <td><input type="button" value="-" onclick="f1.one.value += '-'"></td>
+      </tr>
+      <tr>
+        <td><input type="button" value="7" onclick="f1.one.value += '7'"></td>
+        <td><input type="button" value="8" onclick="f1.one.value += '8'"></td>
+        <td><input type="button" value="9" onclick="f1.one.value += '9'"></td>
+        <td><input type="button" value="*" onclick="f1.one.value += '*'"></td>
+      </tr>
+      <tr>
+        <td><input type="button" value="0" onclick="f1.one.value += '0'"></td>
+        <td><input type="button" value="C" onclick="f1.one.value = ''"></td>
+        <td><input type="button" value="=" onclick="f1.one.value = eval(f1.one.value)"></td>
+        <td><input type="button" value="/" onclick="f1.one.value += '/'"></td>
+      </tr>
+      <tr>
+        <td colspan="4" align="center">
+          <input type="button" name="Reset" value="Reset" onclick="f1.one.value = ''">
+        </td>
+      </tr>
+    </table>
+  </form>
+</body>
+</html>
